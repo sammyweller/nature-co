@@ -11,7 +11,7 @@ html {
 }
 
 .navigation-list__item {
-    margin: 0 20px 0 20px;
+    margin: 0 40px 0 20px;
 }
 
 p {
@@ -358,7 +358,7 @@ a:focus {
 
     .resource-img2,
     .resource-img3 {
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .who-images {
