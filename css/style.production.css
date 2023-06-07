@@ -194,13 +194,12 @@ p {
 
 .who-paragraph {
     font-size: 20px;
-    padding-bottom: 40px;
 }
 
 .who-img1,
 .who-img2,
 .who-img3 {
-
+    margin-top: 15px;
     border-radius: 10px;
     width: 25%;
     height: 100%;
