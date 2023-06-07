@@ -1,0 +1,390 @@
+html {
+    background-color: #F1F3EA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+}
+
+.navigation-list__item {
+    margin: 0 20px 0 20px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.intro {
+    background-color: #F1F3EA;
+    padding-bottom: 20px;
+}
+
+.intro-section {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+.intro-text__paragraph {
+    font-size: 20px;
+    padding: 0 20px 20px 0;
+
+}
+
+
+.birds-img {
+    width: 400px;
+}
+
+
+.about {
+    background-color: #C5D1B0;
+}
+
+
+.about-text {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px 50px 50px 50px;
+}
+
+.about-paragraph {
+    font-size: 20px;
+}
+
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.resources-section {
+    max-width: 1100px;
+    margin: 50px 40px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F3EA;
+    border-radius: 10px;
+
+    color: black;
+}
+
+.resource-1,
+.resource-2,
+.resource-3 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 40px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource-img1,
+.resource-img2,
+.resource-img3 {
+    border-radius: 20px;
+    width: 30%;
+    height: 100%;
+    margin-right: 60px;
+}
+
+.resource-1--text,
+.resource-2--text,
+.resource-3--text {
+    margin-top: -30px;
+}
+
+
+
+.who {
+    background-color: #c5d1b0;
+}
+
+.who-text {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px 50px 70px 50px;
+}
+
+.who-paragraph {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.who-img1,
+.who-img2,
+.who-img3 {
+
+    border-radius: 10px;
+    width: 25%;
+    height: 100%;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.who-img1,
+.who-img2 {
+    margin-right: 60px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: #c5d1b0;
+
+}
+
+.social1,
+.social2,
+.social3 {
+    width: 30px;
+}
+
+
+
+
+/* Heading font sizes: */
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Syne', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+/* buttons: */
+
+.rs1-button,
+.rs2-button,
+.rs3-button,
+.intro-button {
+    text-align: center;
+    background-color: #F1F3EA;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px black;
+    border: 2px solid;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.rs1-button:hover,
+.rs2-button:hover,
+.rs3-button:hover,
+.intro-button:hover,
+.rs1-button:focus,
+.rs2-button:focus,
+.rs3-button:focus,
+.intro-button:focus {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    background-color: #C5D1B0;
+    box-shadow: 4px 4px 0px black;
+    border: 2px solid;
+}
+
+
+/* links */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    /* visited link */
+    color: black;
+}
+
+a:active {
+    /* selected link */
+    color: #527856;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #527856;
+}
+
+/*end of links */
+
+
+
+
+/* Begin Responsive */
+
+@media all and (max-width: 1080px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .birds-img {
+        width: 300px;
+    }
+
+
+}
+
+
+@media all and (max-width: 880px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .resource-img1,
+    .resource-img2,
+    .resource-img3 {
+        min-width: 200px;
+    }
+
+}
+
+
+
+@media all and (max-width: 680px) {
+    p {
+        font-size: 15px;
+    }
+
+    .about-paragraph,
+    .who-paragraph {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding: 20px 50px;
+    }
+
+    .intro-text__paragraph {
+        padding: 0 0;
+    }
+
+    .birds-img {
+        width: 250px;
+    }
+
+
+    .resource-1,
+    .resource-2,
+    .resource-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .resource-1 {
+        padding-top: 20px;
+    }
+
+    .resource-3 {
+        padding-bottom: 50px;
+    }
+
+
+    .resource-1--text,
+    .resource-2--text,
+    .resource-3--text {
+        margin-top: 0;
+    }
+
+    .resource-img1,
+    .resource-img2,
+    .resource-img3 {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .resource-img2,
+    .resource-img3 {
+        margin-top: 40px;
+    }
+
+    .who-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .who-img1,
+    .who-img2 {
+        margin-right: 0;
+    }
+
+    .who-img1,
+    .who-img2,
+    .who-img3 {
+        width: 60%;
+    }
+
+    .who-img2,
+    .who-img3 {
+        margin-top: 20px;
+    }
+
+
+}
